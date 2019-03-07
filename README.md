@@ -12,13 +12,14 @@ This is where your description should go. Try and limit it to a paragraph or two
 You can install the package via composer:
 
 ```bash
-composer require joeelia/authorize-net
+composer require joeelia/laravel-authorize-net-subscription-webhooks
 ```
 
 ## Usage
 
 ``` php
-// Usage description here
+// php artisan migrate
+// php artisan vendor:publish --provider="Joeelia\AuthorizeNet\AuthorizeNetServiceProvider" --tag="config"
 ```
 
 ### Testing
