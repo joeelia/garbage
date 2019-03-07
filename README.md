@@ -13,6 +13,8 @@ You can install the package via composer:
 
 ```bash
 composer require joeelia/laravel-authorize-net-subscription-webhooks
+php artisan migrate
+php artisan vendor:publish --provider="Joeelia\AuthorizeNet\AuthorizeNetServiceProvider" --tag="config"
 ```
 
 ## Usage
